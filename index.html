@@ -19,22 +19,22 @@
       background: white;
       padding: 2rem;
       border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.05);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
     }
 
     img.logo {
-      width: 150px;
+      width: 160px;
       height: auto;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     h1 {
       font-size: 2rem;
-      margin-top: 0.5rem;
+      margin-top: 0.2rem;
     }
 
-    .pdf-embed {
-      margin-top: 2rem;
+    p {
+      margin: 1rem 0 2rem;
     }
 
     iframe {
@@ -43,9 +43,12 @@
       border: none;
     }
 
+    .pdf-embed {
+      display: block;
+    }
+
     .mobile-link {
       display: none;
-      margin-top: 2rem;
     }
 
     a.button {
@@ -70,6 +73,7 @@
 
       .mobile-link {
         display: block;
+        margin-top: 1.5rem;
       }
 
       h1 {
@@ -78,7 +82,7 @@
 
       a.button {
         font-size: 1rem;
-        padding: 0.8rem 1.5rem;
+        padding: 0.8rem 1.4rem;
       }
     }
   </style>
@@ -87,14 +91,12 @@
   <div class="container">
     <img src="logo.png" alt="GoPrep Logo" class="logo">
     <h1>GoPrep – Your nutrition. On the go.</h1>
-    <p>See our investor presentation below:</p>
+    <p>Investor Presentation</p>
 
-    <!-- Desktop embed -->
     <div class="pdf-embed">
       <iframe src="presentation.pdf"></iframe>
     </div>
 
-    <!-- Mobile-only button -->
     <div class="mobile-link">
       <a href="presentation.pdf" class="button" target="_blank">📄 View PDF</a>
     </div>
